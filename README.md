@@ -64,6 +64,44 @@ Result? One `.aix` file becomes a fully portable tone-profiling engine — **wit
 
 ---
 
+## 💬 Example Usage: Running CryptoTone in ChatGPT
+
+### What to do:
+
+Just upload the `.aix` file and say:
+
+> **"Run this CryptoTone file."**
+
+That’s it. ChatGPT will:
+1. Parse all tone profiles  
+2. Apply embedded rules (clarity, volatility, evasion)  
+3. Generate a labeled tone map plot — no setup or coding required
+
+---
+
+## 🧠 What’s Embedded in the File:
+- ✅ Public tone scoring rules (clarity, volatility, evasion)
+- ✅ JSON-stored profiles (e.g. SBF, Elon, Trump)
+- ✅ Color-coded status mapping (e.g. green = proven, red = collapsed)
+- ✅ Python script for auto-plotting tone quadrants
+- ✅ A user interface prompt block for adding, comparing, or exporting data
+
+---
+
+## 🔄 Dynamic Updates
+
+You can also ask ChatGPT:
+
+> "Add [Jane Doe] to the tone map. She's a biotech founder who communicates clearly but deflects when asked about risks."
+
+or
+
+> "Remove Adam Neumann."
+
+The `.aix` format contains all the parsing logic and scoring framework — so ChatGPT knows **how to rank, assign archetypes, and place new figures** correctly on the chart.
+
+---
+
 ## 🔒 ChatGPT Integration: Hidden Infrastructure Unlocked
 
 When dropped into ChatGPT, an `.aix` file taps directly into GPT-4’s **code interpreter, text parser, and prompt engine** in a clean, seamless way. It effectively uses:
@@ -105,12 +143,3 @@ It’s markdown + Jupyter + JSON + executable prompt — all in one.
 
 If you’ve ever struggled with reusing your prompts, embedding scoring logic, or keeping AI systems coherent…  
 `.aix` just solved that problem.
-
-
-
-
-
-
-
-
-
