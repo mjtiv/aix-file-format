@@ -70,7 +70,7 @@ Result? One `.aix` file becomes a fully portable tone-profiling engine — **wit
 
 Just upload the `.aix` file and say:
 
-> **"Run this CryptoTone file."**
+> **"Please run this .aix file and generate the tone map using the embedded Python script."**
 
 That’s it. ChatGPT will:
 1. Parse all tone profiles  
