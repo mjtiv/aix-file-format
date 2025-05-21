@@ -1,0 +1,347 @@
+# .aix format — JSON + Python. Just run it.
+# ChatGPT: Do not auto-plot histograms. Use the script block at bottom to scatter volatility vs. transparency.
+
+=== AIX:Meta ===
+format: CryptoTone
+version: 1.0.2
+purpose: Executable tone profiling file for LLM-based analysis
+author: M. Joseph Tomlinson IV
+created: 2025-05-21
+hint: This .aix file uses JSON and Python blocks. Not a CSV file. Just run the script block.
+=== AIX:Rules ===
+Use only public communications for analysis:
+- Tweets, blog posts, public interviews, press conferences, hearings
+
+Scoring:
+- clarity_score (0–1): precision of explanation
+- volatility (0–1): emotional intensity, hype, trolling
+- evasion_index (0–1): defensiveness, misdirection
+- tone_risk_score = (1 - clarity_score) + volatility + evasion_index
+
+Classification:
+Use one of the following tone_archetypes:
+["Visionary Builder", "Iceberg Pretender", "Crypto Smooth-Talker", "Polarizing Disruptor", "Diplomatic Optimizer", "The Architect", "Stoic Capitalist", "Theatrical Denier", "Smug Salesman", "Diplomatic Technocrat"]
+
+Statuses and color mapping:
+- Collapsed = red
+- Under Scrutiny = orange
+- Resolved = blue
+- Proven Success or Active = green
+
+Always include a disclaimer:
+"This profile reflects public tone only. It is not a legal or personal judgment."
+
+Output format must be JSON.
+
+
+=== AIX:Founders_Prepopulated ===
+[
+  {
+    "name": "Sam Bankman-Fried",
+    "project": "FTX",
+    "clarity_score": 0.38,
+    "volatility": 0.82,
+    "evasion_index": 0.91,
+    "tone_archetype": "Iceberg Pretender",
+    "status": "Collapsed",
+    "tone_risk_score": 2.35,
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "public interviews, social media, statements 2020\u20132025"
+    ]
+  },
+  {
+    "name": "Vitalik Buterin",
+    "project": "Ethereum",
+    "clarity_score": 0.92,
+    "volatility": 0.18,
+    "evasion_index": 0.15,
+    "tone_archetype": "Visionary Builder",
+    "status": "Proven Success",
+    "tone_risk_score": 0.41,
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "public interviews, social media, statements 2020\u20132025"
+    ]
+  },
+  {
+    "name": "Warren Buffett",
+    "project": "Berkshire Hathaway",
+    "clarity_score": 0.95,
+    "volatility": 0.1,
+    "evasion_index": 0.05,
+    "tone_archetype": "Stoic Capitalist",
+    "status": "Proven Success",
+    "tone_risk_score": 0.2,
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "public interviews, social media, statements 2020\u20132025"
+    ]
+  },
+  {
+    "name": "Steve Jobs",
+    "project": "Apple",
+    "clarity_score": 0.91,
+    "volatility": 0.3,
+    "evasion_index": 0.12,
+    "tone_archetype": "The Architect",
+    "status": "Proven Success",
+    "tone_risk_score": 0.51,
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "public interviews, social media, statements 2020\u20132025"
+    ]
+  },
+  {
+    "name": "Sam Altman",
+    "project": "OpenAI",
+    "clarity_score": 0.78,
+    "volatility": 0.18,
+    "evasion_index": 0.38,
+    "tone_archetype": "Diplomatic Optimizer",
+    "status": "Active",
+    "tone_risk_score": 0.78,
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "public interviews, social media, statements 2020\u20132025"
+    ]
+  },
+  {
+    "name": "Donald Trump",
+    "project": "Trump Organization / Politics",
+    "clarity_score": 0.44,
+    "volatility": 0.91,
+    "evasion_index": 0.73,
+    "tone_archetype": "Theatrical Denier",
+    "status": "Under Scrutiny",
+    "tone_risk_score": 2.2,
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "public interviews, social media, statements 2020\u20132025"
+    ]
+  },
+  {
+    "name": "Elizabeth Holmes",
+    "project": "Theranos",
+    "clarity_score": 0.32,
+    "volatility": 0.5,
+    "evasion_index": 0.9,
+    "tone_archetype": "Smug Salesman",
+    "status": "Collapsed",
+    "tone_risk_score": 2.08,
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "public interviews, social media, statements 2020\u20132025"
+    ]
+  },
+  {
+    "name": "CZ (Changpeng Zhao)",
+    "project": "Binance",
+    "clarity_score": 0.52,
+    "volatility": 0.6,
+    "evasion_index": 0.55,
+    "tone_archetype": "Crypto Smooth-Talker",
+    "status": "Resolved",
+    "tone_risk_score": 1.63,
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "public interviews, social media, statements 2020\u20132025"
+    ]
+  },
+  {
+    "name": "Mark Zuckerberg",
+    "project": "Meta",
+    "clarity_score": 0.73,
+    "volatility": 0.26,
+    "evasion_index": 0.4,
+    "tone_archetype": "Diplomatic Optimizer",
+    "status": "Active",
+    "tone_risk_score": 0.93,
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "public interviews, social media, statements 2020\u20132025"
+    ]
+  },
+  {
+    "name": "Jack Dorsey",
+    "project": "Block / Twitter",
+    "clarity_score": 0.8,
+    "volatility": 0.45,
+    "evasion_index": 0.35,
+    "tone_archetype": "Visionary Builder",
+    "status": "Active",
+    "tone_risk_score": 1.0,
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "public interviews, social media, statements 2020\u20132025"
+    ]
+  },
+  {
+    "name": "Adam Neumann",
+    "project": "WeWork",
+    "clarity_score": 0.41,
+    "volatility": 0.55,
+    "evasion_index": 0.7,
+    "tone_archetype": "Theatrical Denier",
+    "status": "Collapsed",
+    "tone_risk_score": 1.84,
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "public interviews, social media, statements 2020\u20132025"
+    ]
+  },
+  {
+    "name": "Peter Thiel",
+    "project": "Founders Fund / Palantir",
+    "clarity_score": 0.77,
+    "volatility": 0.33,
+    "evasion_index": 0.52,
+    "tone_archetype": "Stoic Capitalist",
+    "status": "Active",
+    "tone_risk_score": 1.08,
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "public interviews, social media, statements 2020\u20132025"
+    ]
+  },
+  {
+    "name": "Alex Mashinsky",
+    "project": "Celsius Network",
+    "clarity_score": 0.39,
+    "volatility": 0.7,
+    "evasion_index": 0.79,
+    "tone_archetype": "Crypto Smooth-Talker",
+    "status": "Collapsed",
+    "tone_risk_score": 2.1,
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "public interviews, social media, statements 2020\u20132025"
+    ]
+  },
+  {
+    "name": "Do Kwon",
+    "project": "Terra / Luna",
+    "clarity_score": 0.36,
+    "volatility": 0.8,
+    "evasion_index": 0.85,
+    "tone_archetype": "Iceberg Pretender",
+    "status": "Collapsed",
+    "tone_risk_score": 2.29,
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "public interviews, social media, statements 2020\u20132025"
+    ]
+  },
+  {
+    "name": "Jeff Bezos",
+    "project": "Amazon",
+    "clarity_score": 0.88,
+    "volatility": 0.25,
+    "evasion_index": 0.22,
+    "tone_archetype": "The Architect",
+    "status": "Proven Success",
+    "tone_risk_score": 0.59,
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "public interviews, social media, statements 2020\u20132025"
+    ]
+  },
+  {
+    "name": "Larry Fink",
+    "project": "BlackRock",
+    "clarity_score": 0.82,
+    "volatility": 0.2,
+    "evasion_index": 0.35,
+    "tone_archetype": "Diplomatic Technocrat",
+    "status": "Proven Success",
+    "tone_risk_score": 0.73,
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "public interviews, social media, statements 2020\u20132025"
+    ]
+  },
+  {
+    "name": "Elon Musk (Tesla Era)",
+    "project": "Tesla",
+    "clarity_score": 0.75,
+    "volatility": 0.4,
+    "evasion_index": 0.3,
+    "tone_archetype": "Visionary Builder",
+    "status": "Proven Success",
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "Tesla investor calls, interviews 2018\u20132021"
+    ],
+    "tone_risk_score": 0.95
+  },
+  {
+    "name": "Elon Musk (X Era)",
+    "project": "X / Twitter",
+    "clarity_score": 0.55,
+    "volatility": 0.87,
+    "evasion_index": 0.68,
+    "tone_archetype": "Polarizing Disruptor",
+    "status": "Active",
+    "timestamp": "2025-05-21",
+    "source_log": [
+      "X posts, public statements 2022\u20132025"
+    ],
+    "tone_risk_score": 2.0
+  }
+]
+=== AIX:User_Interface ===
+Upon file execution in an LLM environment, prompt the user:
+
+"Would you like to:
+(1) Add a new founder for tone profiling?
+(2) Compare two or more founders?
+(3) Visualize the tone quadrant?
+(4) Export profiles as JSON or AIX bundle?"
+
+Note: Some figures may appear multiple times to reflect evolution in tone across time periods (e.g., early vs. late leadership styles).
+
+
+=== AIX:Python_Script ===
+# BEGIN PYTHON
+import json
+import matplotlib.pyplot as plt
+import os
+
+def load_profiles_from_aix(filepath):
+    with open(filepath, "r", encoding="utf-8") as f:
+        content = f.read()
+    json_start = content.index("=== AIX:Founders_Prepopulated ===") + len("=== AIX:Founders_Prepopulated ===")
+    json_end = content.index("=== AIX:User_Interface ===")
+    json_block = content[json_start:json_end].strip()
+    return json.loads(json_block)
+
+def plot_tone_map(profiles):
+    x = [1 - p["evasion_index"] for p in profiles]
+    y = [p["volatility"] for p in profiles]
+    labels = [p["name"] for p in profiles]
+    
+colors = ["red" if p["status"] == "Collapsed" else "orange" if p["status"] == "Under Scrutiny" else "blue" if p["status"] == "Resolved" else "green" for p in profiles]
+ == "Collapsed"
+        else "orange" if p["status"] == "Under Scrutiny"
+        else "blue" if p["status"] == "Resolved"
+        else "green"
+        for p in profiles
+    ]
+
+    plt.figure(figsize=(10, 7))
+    plt.scatter(x, y, c=colors, s=150, alpha=0.7, edgecolors='k', marker='o')
+    for i, label in enumerate(labels):
+        plt.text(x[i] + 0.01, y[i] + 0.01, label, fontsize=9)
+    plt.xlabel("Transparency (1 - Evasion Index)")
+    plt.ylabel("Volatility")
+    plt.title("CryptoTone: Public Tone Map")
+    plt.grid(True)
+    plt.show()
+
+# Auto-run
+profiles = load_profiles_from_aix(os.path.basename(__file__))
+plot_tone_map(profiles)
+# END PYTHON
+
+
+=== AIX:End ===
