@@ -143,3 +143,19 @@ It’s markdown + Jupyter + JSON + executable prompt — all in one.
 
 If you’ve ever struggled with reusing your prompts, embedding scoring logic, or keeping AI systems coherent…  
 `.aix` just solved that problem.
+
+---
+
+## Patent Strategy
+
+This project was **deliberately not patented**.
+
+As a registered U.S. Patent Agent (Reg. No. 83,522), I made a fully informed decision to release `.aix` under an open-source license for the benefit of the AI developer community.
+
+### Why:
+1. **Open source adoption is more valuable than exclusivity** – foundational infrastructure should be collaborative.
+2. **This creates a new conceptual layer in AI** – `.aix` isn't just a file type, it's the beginning of modular, procedural intelligence.
+3. **Patent protection would be difficult and distracting** – a U.S. 101 rejection for a file format like this would likely be broad and costly to argue.
+
+> ⚠️ If you're developing similar tools and considering patenting, be aware:  
+> **Public disclosure starts the 1-year clock** in the U.S. to file a provisional or non-provisional application. After that, your rights may be forfeited. Many other countries offer **no grace period at all**.
