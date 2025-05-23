@@ -146,16 +146,34 @@ If you’ve ever struggled with reusing your prompts, embedding scoring logic, o
 
 ---
 
-## Patent Strategy
+## 🔒 Patent Strategy
 
-This project was **deliberately not patented**.
+**This project was deliberately not patented.**
 
-As a registered U.S. Patent Agent (Reg. No. 83,522), I made a fully informed decision to release `.aix` under an open-source license for the benefit of the AI developer community.
+As a registered U.S. Patent Agent (Reg. No. 83,522), I made a fully informed decision to release the `.aix` format under an open-source license for the benefit of the broader AI developer and research community.
 
-### Why:
-1. **Open source adoption is more valuable than exclusivity** – foundational infrastructure should be collaborative.
-2. **This creates a new conceptual layer in AI** – `.aix` isn't just a file type, it's the beginning of modular, procedural intelligence.
-3. **Patent protection would be difficult and distracting** – a U.S. 101 rejection for a file format like this would likely be broad and costly to argue.
+### Why this path:
 
-> ⚠️ If you're developing similar tools and considering patenting, be aware:  
-> **Public disclosure starts the 1-year clock** in the U.S. to file a provisional or non-provisional application. After that, your rights may be forfeited. Many other countries offer **no grace period at all**.
+- **Open-source adoption is more valuable than exclusivity**  
+  Foundational infrastructure should be collaborative. Broad uptake matters more than legal exclusivity.
+
+- **`.aix` is more than a file type**  
+  It defines a **modular, procedural layer** in AI workflows—code + prompt + metadata in one reproducible capsule. This format unlocks interoperability across teams, platforms, and disciplines.
+
+- **Patenting this would likely slow, not accelerate, progress**  
+  A format like `.aix` would face significant scrutiny under 35 U.S.C. §101 (abstract idea), and defending it would be costly, distracting, and ethically questionable given the community value.
+
+---
+
+⚠️ **For teams developing similar tools or infrastructure:**
+
+Be aware that **public disclosure** triggers the 1-year U.S. patent filing deadline. After that, rights are forfeited under U.S. law—and **many international jurisdictions have no grace period at all**.
+
+---
+
+This message isn't just legal.  
+It's a **signal of intent**.
+
+We’re not locking down ideas.  
+We’re opening up a new frontier.
+
