@@ -176,5 +176,23 @@ It’s a **signal of intent**:
 > We’re not locking down ideas.  
 > We’re opening up a new frontier.
 
+---
+
+## 🛡️ Prior Art & Disclosure Statement
+
+This repository and documentation publicly disclose the `.aix` file format as an open, modular, text-based interface for AI systems. This includes, but is not limited to:
+
+- Structured prompt containers with embedded code or metadata  
+- Human-readable execution instructions for AI workflows  
+- Modular file blocks combining prompt, context, and logic  
+- Formats that facilitate reproducible or interoperable AI behavior using plain text
+
+This disclosure is **intentionally broad** to prevent future patenting or enclosure of structurally identical systems, even if rebranded, reformatted, or applied to other AI platforms. The `.aix` format and any equivalent structure for AI-executable containerization are hereby placed in the public domain or released under an open-source license to preserve universal access and use.
+
+> **Date of Public Disclosure:** May 22, 2025  
+> **Author:** M. Joseph Tomlinson IV  
+> **License:** MIT — see `LICENSE.txt` for full terms
+
+---
 
 
