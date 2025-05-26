@@ -4,6 +4,9 @@
 ### 👤 Author: M. Joseph Tomlinson IV  
 ### 📅 Date: May 2025  
 
+> 🛡️ **Update – May 26, 2025:**  
+> Clarified that ".aix" is a novel AI file type, unrelated to IBM’s AIX® UNIX OS. This ensures naming transparency and avoids trademark confusion.
+
 ---
 
 ## 🧠 What Is a `.aix` File?
@@ -194,5 +197,15 @@ This disclosure is **intentionally broad** to prevent future patenting or enclos
 > **License:** MIT — see `LICENSE.txt` for full terms
 
 ---
+⚠️ Disclaimer: Use of the Term ".aix"
 
+The “.aix” **file type** described here is a newly invented format for injecting memory, control logic, and procedural intelligence into artificial intelligence systems (e.g., LLMs, generative models, orchestration agents).
 
+This use of the term is **entirely unrelated** to IBM’s AIX® (Advanced Interactive eXecutive) UNIX operating system. We claim no affiliation with or endorsement by IBM.
+
+To be clear: this is a **novel AI file type**, designed for structured reasoning, modular execution, and reproducible workflows — not an operating system or OS component.
+
+If any trademark holders have concerns, we’re open to renaming.  
+We just thought “.aix” had the perfect mix of **EXE-style execution** and **Elon’s flair for the letter X**.
+
+*Please don’t sue us over the cool name of the new file type. We really just liked the vibe.*
