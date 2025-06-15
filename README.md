@@ -7,6 +7,15 @@
 > 🛡️ **Update – May 26, 2025:**  
 > Clarified that ".aix" is a novel AI file type, unrelated to IBM’s AIX® UNIX OS. This ensures naming transparency and avoids trademark confusion.
 
+> 🛡️ **Update – June 15, 2025:**  
+> 🖼️ **Note on Adobe `.aix` Files (Illustrator XML):**  
+> This project is **unrelated** to Adobe’s legacy `.aix` file extension used in Illustrator for XML-based artwork exchange.  
+>  
+> Our `.aix` stands for **AI eXecutable** — a human-readable container for logic, prompts, and data in LLM workflows.  
+> It’s a completely new format built for **AI reasoning**, **structured memory**, and **modular execution** in tools like ChatGPT, GPT-4, and LangChain.  
+>  
+> Adobe’s format is focused on **graphics and artwork data**; this `.aix` is a **cognitive container** for generative AI systems.
+
 ---
 
 ## 🧠 What Is a `.aix` File?
