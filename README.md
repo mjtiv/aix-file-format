@@ -206,6 +206,7 @@ This disclosure is **intentionally broad** to prevent future patenting or enclos
 > **License:** MIT — see `LICENSE.txt` for full terms
 
 ---
+
 ⚠️ Disclaimer: Use of the Term ".aix"
 
 The “.aix” **file type** described here is a newly invented format for injecting memory, control logic, and procedural intelligence into artificial intelligence systems (e.g., LLMs, generative models, orchestration agents).
@@ -218,3 +219,33 @@ If any trademark holders have concerns, we’re open to renaming.
 We just thought “.aix” had the perfect mix of **EXE-style execution** and **Elon’s flair for the letter X**.
 
 *Please don’t sue us over the cool name of the new file type. We really just liked the vibe.*
+
+---
+
+## ⚠️ Commercial Use Notice
+
+The `.aix` file format and demonstration payloads in this repository are released under the MIT License for **non-commercial, educational, and research use only**.
+
+Use of `.aix` as part of **commercial runtime infrastructure** — including but not limited to:
+
+- Agent trust scoring
+- Drift-based enforcement (NFER)
+- Quarantine logic or sandboxing
+- AI agent orchestration via `.aix` capsules
+
+...may require a separate **commercial license**.
+
+This includes integration into:
+
+- Paid SaaS products
+- Enterprise agent frameworks
+- Commercial AI safety tooling
+
+Patent claims are pending. By public disclosure, we retain infrastructure rights while open-sourcing the file format itself.
+
+💼 If you're a company using `.aix` beyond personal or academic use, please contact:  
+📧 **mjtiv@udel.edu**
+
+---
+
+
